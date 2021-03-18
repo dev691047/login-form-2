@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700&display=swap');
+body{
+    font-family: 'Blinker', sans-serif;
+    /* background-color: rgb(156, 156, 160); */
+    background-color: ;
+}
+*{
+    margin:0;;
+    padding: 0;
+}
+main{
+    max-width: 1440px;
+    margin:auto;
+   
+  
+}
+.container{
+   
+    height:250px;
+    max-width:400px;
+    margin:auto;
+    margin-top: 70px;;
+    box-shadow: 0 0 20px rgb(209, 209, 209);
+}
+nav{
+    background-color: #82fc49;
+    height:50px;
+    color:rgb(255, 255, 255);
+    padding:7px 100px 10px 100px;
+    margin-top: 20px;;  
+      margin-top: 0;
+}
+h1{
+    font-size: 32px;;
+    letter-spacing:3px;
+    line-height: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+#gmail{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#password{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#gmail,#password{
+    width:90%;
+    height:40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#submit{
+    width:100px;
+    margin:auto;
+    margin-top: 20px;
+    height:30px;
+    background-color: #82fc49;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px green;
+}
+
+.x{
+    color:red;
+    text-align: right;
+    margin-right: 20px;
+   
+}
+
+@media(max-width:700px){
+  
+    nav{
+        padding:5px;
+    }
+    h1{
+      
+        font-size: 25px;
+        letter-spacing: 2px;
+
+    }
+    .container{
+        margin-top: 30px;;
+    }
+}
